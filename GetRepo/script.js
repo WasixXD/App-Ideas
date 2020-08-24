@@ -12,9 +12,14 @@ button.addEventListener("click", () => {
     h2.appendChild(document.createTextNode(input))
     
     ul.appendChild(h2)
+    
+    var p = document.createElement("p")
+    p.appendChild(document.createTextNode("Carregando..."))
+    app.appendChild(p)
 
     //use axios to get all the information that i need
     axios.get(`https://api.github.com/users/${input}/repos`).then((message) =>{
+        app.appendChild(p)
 
         //get the JSON data
         var num = message.data.length
