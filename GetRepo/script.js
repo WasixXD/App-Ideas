@@ -21,7 +21,7 @@ button.addEventListener("click", () => {
         var data = message.data
         
         
-        //put in HTML
+        //put at the HTML
         for(let i = 0; i < num; i++){
             var link = message.data[0].html_url
 
