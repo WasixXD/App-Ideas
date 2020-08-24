@@ -1,2 +1,3 @@
 # App-Ideas
-Apps using HTML, CSS and JS
+some ideas caught in https://github.com/florinpop17/app-ideas
+others created by me
