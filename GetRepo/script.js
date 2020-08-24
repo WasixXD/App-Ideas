@@ -28,7 +28,7 @@ button.addEventListener("click", () => {
         
         //put inside of the HTML
         for(let i = 0; i < num; i++){
-            var link = message.data[0].html_url
+            var link = message.data[i].html_url
 
             var a = document.createElement("a")
             a.setAttribute("href", link)
