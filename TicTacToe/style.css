@@ -1,0 +1,43 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(42, 54, 104);
+    
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+#game {
+    width:603px;
+    height:600px;
+    border: #45A29E solid 3px;
+    align-items: center;
+    margin: auto;
+}
+
+#game div {
+    width:200px;
+    height:200px;
+    border-right: #45A29E solid 1px;
+    border-bottom: #45A29E  solid 1px;
+    float:left;
+    
+    font-size: 65px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+#game div p {
+    color:#66FCF1 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
