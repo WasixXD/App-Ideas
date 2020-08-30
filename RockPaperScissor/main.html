@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jokenpo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav>
+            <h1 id="res">Jogando Jo-Ken-Po</h1>
+        </nav>
+
+        <section class="jogo">
+            <div class="jogador">
+                <p id="aparecer">Jogador</p>
+                <div>
+                    <button id="tesoura"  onclick="etesoura()"  value="tesoura"><img src="tesoura.png" class="img" alt="tesoura"  ></button>
+                    <button id="pedra"  onclick="epedra()"  value="pedra"><img src="pedra.png" class="img" alt="pedra"   ></button>
+                    <button id="papel" onclick="epapel()"  value="papel"><img src="papel.png" class="img" alt="papel"  ></button>
+                </div>
+            </div>
+
+            <div>
+                
+                <h1 ><button onclick="escolher()" >VS</button></h1>
+                
+            </div>
+            
+            <div class="computador">
+                <p id="jogada">Computador</p>
+                <div id="mostrar">
+                    <img src="tesoura.png"  alt="tesoura" >
+                    <img src="pedra.png" alt="pedra">
+                    <img src="papel.png" alt="papel">
+                </div>
+            </div >
+
+            
+            <footer>
+                <p id="contador">Jogador 0 || Computador 0</p>
+            </footer>
+
+            
+            <script src="script.js"></script>
+        </section>
+    </body>
+</html>
