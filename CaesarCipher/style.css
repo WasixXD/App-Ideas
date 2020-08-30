@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    font-family: "Fira Code", sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+
+nav h1{
+    font-size: 50px;
+}
+
+section{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    margin: 15px;
+}
+textarea{
+    resize: none;
+    border: 2px solid black;
+    color: black;
+    font-size: 20px;
+    box-shadow: 2px 3px 4px gray;
+}
+div input[type = "text"]{
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid black;
+    
+}
+
+div input[type = "button"]{
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+hr{
+    margin: 100px;
+    color: red;
+    size: 30px;
+}
+

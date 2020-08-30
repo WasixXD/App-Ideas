@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cripto</title>
+        <link rel="stylesheet" href="style.css">
+        
+
+    </head>
+    
+    <body>
+        <nav>
+            <h1>Cifra de César </h1>
+            
+        </nav>
+
+        <section>
+            <h2>Codigo para Criptografar</h2>
+            <textarea name="texto" id="texto" cols="35" rows="10" ></textarea>
+        </section>
+
+        
+        <div >
+            <input type="text" name="chaves" id="chaves" placeholder="Número de chaves">
+            <input type="button" value="Criptografar" onclick="criptografar()">
+        </div>
+
+
+        <section>
+            <h2>Código Criptografado</h2>   
+            <textarea name="texto2" id="texto2" cols="35" rows="10" readonly    ></textarea>
+        </section>
+
+
+
+        <hr/>
+
+
+        <!-- Descriptografia-->
+        <section>
+            <h2>Codigo para Descriptografar</h2>
+            <textarea name="msg" id="msg" cols="35" rows="10" ></textarea>
+        </section>
+
+        
+        <div>
+            <input type="text" name="chave" id="chave" placeholder="Número de chaves">
+            <input type="button" value="Descriptografar" onclick="descriptografar()">
+        </div>
+
+
+        <section>
+            <h2>Código Descriptografado</h2>   
+            <textarea name="msg2" id="msg2" cols="35" rows="10" readonly></textarea>
+        </section>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>
