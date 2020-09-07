@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chuck Norris</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="title">
+            <h2>Chuck Norris Jokes</h2>
+        </div>
+
+        <div class="get-content">
+            <label for="categoty">Category</label>
+            <select name="category" id="category">
+                <option value="random" selected>random</option>
+            </select>
+
+            <label for="jokesNumber">Number of jokes</label>
+            <input type="number" name="jokesNumber" id="jokesNumber" min="0">
+
+            <button id="get" class="botao">Generate Jokes</button>
+        </div>
+        
+        <div class="returned-jokes">
+            <ul id="list">
+                
+            </ul>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

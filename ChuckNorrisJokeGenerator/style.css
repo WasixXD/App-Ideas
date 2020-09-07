@@ -1,0 +1,77 @@
+body {
+    padding:0 ;
+    margin:0 ;
+    font-family: Helvetica, "Helvertica Neue";
+}
+
+.title {
+    padding :30px;
+    font-size: 35px;
+
+}
+
+.get-content {
+    display: block;
+    margin-left: 20px;
+}
+
+.get-content select {
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+
+    
+}
+
+.get-content input {
+    padding: 10px;
+    outline: none;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+.get-content button {
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    outline: none;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+.get-content .botao {
+    background: #ff4500;
+    color: white;
+    box-shadow: 0 5px 0 #c93803;
+}
+
+.get-content .botao:hover{
+    background: #d43b04;
+    color: white;
+    box-shadow: 0 5px 0 #ac3104;
+}
+
+.get-content .botao:active{
+    position: relative;
+    top: 5px;
+    box-shadow:none;
+}
+
+.returned-jokes {
+    text-align: justify;
+}
+
+.returned-jokes ul li {
+    margin: 20px;
+    list-style: circle;
+    padding: 5px;
+   
+    
+}
