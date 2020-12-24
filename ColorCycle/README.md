@@ -17,3 +17,4 @@ User Stories
 
 [ x ]    User will receive an warning if something other than hexadecimal digits are entered for the color components
 
+[Check](https://wasixxd.github.io/App-Ideas/ColorCycle/)
