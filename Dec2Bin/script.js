@@ -60,7 +60,7 @@ function animate() {
     for(let i in bin) {
         c.beginPath()
         let radius = (canvas.width / bin.length) / 13
-        c.arc(((radius  * (i + 1)) / 2) + 435, canvas.height / 2, radius, 0, Math.PI * 2, false)
+        c.arc(((radius  * (i + 1)) / 2) + canvas.width / 3, canvas.height / 2, radius, 0, Math.PI * 2, false)
         if(bin[i] == "1") {
             c.fillStyle = "black"
             c.fill()
