@@ -1,0 +1,121 @@
+.allContent {
+    padding: 0;
+    margin: 0;
+    background-color: #ffcd60;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Arciform;
+    font-size: 20px;
+    src: url("./font/Arciform.otf");
+}
+
+.previous {
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.favoriteDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    
+}
+
+.favoriteDiv img:hover {
+    cursor: pointer;
+}
+
+.main {
+    width: 60vw;
+    height: 100vh;
+    background-color: #d34848;
+    box-shadow: 1rem 3rem black;
+}
+
+.main .mainContainer .box .top{
+    width: 100%;
+    height:50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .mainContainer .box .top img {
+    margin-top: 1rem;
+    width: 55%;
+    height: 50%;
+}
+
+.modal-content {
+    background-color: white;
+    
+}
+
+
+.main .mainContainer .box .bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main .mainContainer .box .bottom button {
+    margin: 2rem 2rem 0 0;
+
+}
+
+.main .mainContainer .box .bottom .button {
+
+    width: 8rem;
+    height: 3rem;
+    font-weight: 400;
+    font-family: "Poppins";
+    background-color: #d34848;
+    border: none;
+    
+}
+
+.main .mainContainer .box .bottom .button:hover {
+    /* width: 9rem;
+    height: 4rem; */
+    font-weight: 700;
+    border: 2px black solid;
+    border-radius: 5rem;
+    transition: .2s;
+}
+
+
+
+.next {
+    width: 20vw;
+    height: 100vh;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.change {
+    width: 3rem;
+    height: 5rem;
+    background-color: rgb(255, 255, 255, 0.5);
+    border:none;
+}
+
+.change:hover {
+    transition: 0.2s;
+    background-color: rgb(255, 255, 255);
+}
