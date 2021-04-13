@@ -3,4 +3,4 @@
 - [ X ] User can favorite foods and return to them
 - [ X ] User can see the ingredients and instructions
 
-(Check)[https://wasixxd.github.io/App-Ideas/MealGenerator/]
+[Check](https://wasixxd.github.io/App-Ideas/MealGenerator/)
