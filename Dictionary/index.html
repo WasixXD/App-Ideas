@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dictionary</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+        
+    </head>
+    <body>
+        <section class="hero has-text-centered">
+                <div class="hero-body">
+                    <p class="title is-size-2">Dictionary Online</p>
+                    <p class="subtitle is-size-6">Support over 13 languages</p>
+                </div>
+        </section>
+
+        
+        
+        <div class="field has-text-centered is-flex is-flex-direction-row is-flex-wrap-wrap is-justify-content-center">
+            
+            <div class="control mr-2 mb-2">
+                <input type="text" name="word" id="word" class="input is-medium">
+            </div>
+            <div class="control">
+
+                <div class="select is-rounded is-medium">
+                    <select name="select" id="language">
+                        <option value="en_US">en_US</option>
+                        <option value="hi">hi</option>
+                        <option value="es">es</option>
+                        <option value="fr">fr</option>
+                        <option value="ja">ja</option>
+                        <option value="ru">ru</option>
+                        <option value="de">de</option>
+                        <option value="it">it</option>
+                        <option value="pt-BR">pt-BR</option>
+                        <option value="ar">ar</option>
+                        <option value="tr">tr</option>
+    
+                    </select>
+                    
+                </div>
+            </div>
+            
+
+            
+        </div>
+
+        <div class="app">
+            <div class="container is-small" id="app">
+                
+            </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>
