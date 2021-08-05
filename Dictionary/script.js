@@ -39,8 +39,9 @@ function appendWord(word) {
 }
 
 
+let input = document.querySelector(".input")
 
-window.addEventListener("keydown",async (keycode) => {
+input.addEventListener("keydown",async (keycode) => {
     let code = keycode.code
     if(code == "Enter") {
         let word = document.querySelector(".input").value
