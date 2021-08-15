@@ -1,3 +1,2 @@
 # App-Ideas
-some ideas caught in https://github.com/florinpop17/app-ideas
-others created by me
+Little programs that I do for practice the basic of webdev
