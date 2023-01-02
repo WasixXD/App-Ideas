@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chords</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            body {
+                
+                overflow-x: hidden;
+            }
+        </style>
+    </head>
+    <body class="absolute ">
+        <div class="w-screen h-full flex flex-row bg-[#00539cff]">
+            <div class="btn w-1/2 flex">
+
+                <button class="generate z-40 bg-[#00539cff] p-8 text-white">GENERATE</button>
+            </div>
+            <div class="input w-1/2 flex content-right justify-center">
+                <input type="range" class="" placeholder="4" name="counter" min="2" max="8" id="counter">
+
+            </div>
+
+
+        </div>
+        <div class="container w-screen h-screen z-0">
+            
+            <div class="genre grid bg-[#00539cff] w-screen h-1/2 text-center content-center">
+                <h1 class="genres text-white content-center text-6xl"> Genre</h1>
+            </div>
+            
+            <div class="progression text-center content-center grid bg-[#eea47fff] w-screen h-1/2">
+                <h1 class="chords text-5xl text-white ">Chord Progression</h1>
+            </div>
+            
+            <script src="script.js"></script>
+        </div>
+    </body>
+</html>
